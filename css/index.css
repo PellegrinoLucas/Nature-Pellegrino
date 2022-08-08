@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+/* Inicio Body*/
+.body {
+    background-color:rgb(7, 7, 7) ;
+}
+
+h1 {  
+    font-weight: bold;
+    color: rgb(85, 248, 85);
+    font-size: 6em;   
+    font-family: monospace;
+    margin-bottom: 0,5rem;
+    text-align: center;
+    padding: 1rem;   
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(107, 221, 107);
+    font-size: 3em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p {
+    font-weight:lighter;
+    color: rgb(151, 229, 151);
+    font-size: 1.5em;   
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+/* Fin Body*/
+/* Inicio Header*/
+
+.main-header {
+    background-image: linear-gradient(to right,rgb(108, 248, 108),rgb(4, 250, 4) ) ;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-header__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.main-header__logo {
+    display: flex;
+    max-width: 12rem;
+    min-width: 10rem;
+    animation: rotate 6s;
+}
+
+
+.menu__item {
+    font-weight: bold;
+    color: black;  
+    padding: 1rem;
+    transition: all .3s;
+}
+
+.menu__link:hover {
+    background-color: black;
+    color:rgb(4, 250, 4);   
+}
+
+.menu__link-active {
+    border: 2px solid black;
+}
+
+/* Fin Header*/
+
+/* Inicio Main*/
+
+#titulos {
+
+    text-align: center;
+
+}
+
+#titulos .titulos__subtitulo {
+
+    margin-bottom: 0.5rem;
+}
+
+#titulos .titulos__parrafo {
+
+    line-height: 1,6;
+    padding: 0.5rem 5rem;
+    
+}
+
+.secciones__menu .secciones__menu__item {
+
+    font-weight:bold;
+    color: rgb(244, 250, 244);
+    font-size: 2.5em;   
+    text-align: center;
+    line-height: 5;
+}
+
+.secciones__menu .secciones__menu__img {
+
+    height: 250px;
+    width: 490px;
+    margin: 0 auto;
+    display:flex;
+    border-radius: 5px;
+}
+    /* Inicio Contacto*/
+#form {
+    display: grid;
+    grid-template-columns: 480px;
+    grid-template-rows: auto;
+    color: white;
+    font-size: 1.5em;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+input:checked {
+        accent-color: rgb(4, 250, 4);
+}
+    /* Fin Contacto*/
+    /* Inicio Galeria*/
+
+#gallery{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 10rem;
+}
+
+#gallery .gallery__img:nth-of-type(1) {
+    grid-column: span 5;
+}
+
+#gallery .gallery__img:nth-of-type(2) {
+    grid-column: span 5;
+}
+
+#gallery .gallery__img:nth-of-type(3) {
+    grid-column: span 6;
+}
+
+#gallery .gallery__img:nth-of-type(4) {
+    grid-column: span 4;
+    grid-row: span 2;
+    height: 100%;
+}
+
+#gallery .gallery__img:nth-of-type(5) {
+    grid-column: span 6;
+}
+
+    /* Fin Galeria*/
+    /* Inicio Nosotros*/
+.nosotros_img {
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    display:flex;
+    border-radius: 5px;
+
+}
+    /* Fin Nosotros*/
+
+/* Fin Main*/
+
+/* Inicio Footer*/
+.footer {
+
+    background-color: rgb(85, 248, 85);
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer__logo {
+    display: flex;
+    max-width: 12rem;
+    min-width: 10rem;
+}
+
+/* Fin Footer*/
+/* Inicio Responsive*/
+
+@media  (max-width: 600px){
+    #gallery{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+}
+
+@media  (max-width: 490px){
+    .main-header__nav {
+        flex-direction: column;
+    }
+
+    .secciones__menu .secciones__menu__img{
+        height: 200px;
+        width: 400px;
+    }
+    #form {
+        grid-template-columns: 200px;
+    }
+    .nosotros_img {
+        height: 480px;
+        width: 320px;
+    
+    }
+    
+}
+/* Fin Responsive*/
+/* Inicio Animaciones*/
+@keyframes rotate {
+    0% {
+        transform: rotate(5deg)
+    }
+    33% {
+        transform: rotate(100deg)
+    }
+    66% {
+        transform: rotate(200deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+/* Fin Animaciones*/
