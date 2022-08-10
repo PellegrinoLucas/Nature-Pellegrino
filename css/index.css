@@ -16,6 +16,8 @@ img {
 
 ul {
     list-style-type: none;
+    font-size: 1.5em;
+
 }
 
 li {
@@ -215,7 +217,7 @@ input:checked {
 /* Inicio Footer*/
 .footer {
 
-    background-color: rgb(85, 248, 85);
+    background-image: linear-gradient(to right,rgb(108, 248, 108),rgb(4, 250, 4) ) ;
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
