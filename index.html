@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link href="http://fonts.googleapis.com/css?family=Edu+TAS+Beginner" rel="stylesheet" type="text/css"/>
     <title>Nature</title>
@@ -33,17 +34,16 @@
         <section id="secciones">
             <ul class="secciones__menu">
                 <li class="secciones__menu__item">Reino animal</li>
-                <img class="secciones__menu__img" src="./imagenes/oso-panda.jpg" alt="Oso panda">
+                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/oso-panda.jpg" alt="Oso panda">
                 <li class="secciones__menu__item">Reino vegetal</li>
-                <img class="secciones__menu__img" src="./imagenes/plantas.jpg" alt="Flores">
+                <img class="secciones__menu__img" data-aos="flip-up" src="./imagenes/plantas.jpg" alt="Flores">
                 <li class="secciones__menu__item">Reino fungi</li>
-                <img class="secciones__menu__img" src="./imagenes/hongo.jpg" alt="Hongos">
+                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/hongo.jpg" alt="Hongos">
                 <li class="secciones__menu__item">Reino protoctista</li>
-                <img class="secciones__menu__img" src="./imagenes/reino-protista.jpg" alt="Protista">
+                <img class="secciones__menu__img" data-aos="flip-up" src="./imagenes/reino-protista.jpg" alt="Protista">
                 <li class="secciones__menu__item">Reino monera</li>
-                <img class="secciones__menu__img" src="./imagenes/reino-monera.jpg" alt="Monera">
+                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/reino-monera.jpg" alt="Monera">
             </ul>
-
         </section>
     </main>
     <footer class="footer">
@@ -53,5 +53,9 @@
             <li class="menu__item"> <a class="menu__link" href="./view/contacto.html">Contactos</a></li>
         </ul>   
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
