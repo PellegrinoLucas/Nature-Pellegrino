@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
     <link href="http://fonts.googleapis.com/css?family=Edu+TAS+Beginner" rel="stylesheet" type="text/css"/>
@@ -31,19 +32,27 @@
                 <h2 class="titulos__subtitulo">Revista especializada en el mundo animal</h2>
                 <p class="titulos__parrafo">En nuestro planeta viven millones de seres vivos pero, ¿sabías que se dividen en cinco reinos diferentes? Algunos, como los animales y las plantas, se encuentran a simple vista; otros, como las bacterias, solo son visibles a través del microscopio. A continuación, nos adentramos en los cinco reinos de la naturaleza para conocerlos un poco mejor.</p>
         </section>
-        <section id="secciones">
-            <ul class="secciones__menu">
-                <li class="secciones__menu__item">Reino animal</li>
-                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/oso-panda.jpg" alt="Oso panda">
-                <li class="secciones__menu__item">Reino vegetal</li>
-                <img class="secciones__menu__img" data-aos="flip-up" src="./imagenes/plantas.jpg" alt="Flores">
-                <li class="secciones__menu__item">Reino fungi</li>
-                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/hongo.jpg" alt="Hongos">
-                <li class="secciones__menu__item">Reino protoctista</li>
-                <img class="secciones__menu__img" data-aos="flip-up" src="./imagenes/reino-protista.jpg" alt="Protista">
-                <li class="secciones__menu__item">Reino monera</li>
-                <img class="secciones__menu__img" data-aos="flip-left" src="./imagenes/reino-monera.jpg" alt="Monera">
-            </ul>
+        <section id="secciones" class="row">
+                <article class="col-md-6">
+                <h3 class="secciones__item">Reino animal</h3>
+                <img class="img-circle secciones__img img-fluid" data-aos="flip-left" src="./imagenes/oso-panda.jpg" alt="Oso panda">
+                </article>
+                <article class="col-md-6">
+                <h3 class="secciones__item">Reino vegetal</h3>
+                <img class="secciones__img img-fluid" data-aos="flip-up" src="./imagenes/plantas.jpg" alt="Flores">
+                </article>
+                <article class="col-md-6">
+                <h3 class="secciones__item">Reino fungi</h3>
+                <img class="secciones__img img-fluid" data-aos="flip-left" src="./imagenes/hongo.jpg" alt="Hongos">
+                </article>
+                <article class="col-md-6">
+                <h3 class="secciones__item">Reino protoctista</h3>
+                <img class="secciones__img img-fluid" data-aos="flip-up" src="./imagenes/reino-protista.jpg" alt="Protista">
+                </article>
+                <article class="col-md-12 col align-self-center">
+                <h3 class="secciones__item">Reino monera</h3>
+                <img class="secciones__img img-fluid" data-aos="flip-left" src="./imagenes/reino-monera.jpg" alt="Monera">
+                </article>
         </section>
     </main>
     <footer class="footer">
@@ -53,9 +62,10 @@
             <li class="menu__item"> <a class="menu__link" href="./view/contacto.html">Contactos</a></li>
         </ul>   
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>
