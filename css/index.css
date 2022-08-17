@@ -237,14 +237,11 @@ input:checked {
 /* Fin Footer*/
 /* Inicio Responsive*/
 
-@media  (max-width: 600px){
-    #gallery{
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1rem;
+@media  (max-width: 800px){
+    .secciones__img{
+        height: 200px;
+        width: 400px;
     }
-
 }
 
 @media  (max-width: 650px){
@@ -257,15 +254,17 @@ input:checked {
     .nosotros_img {
         height: 480px;
         width: 320px;
-    
     }}
 
-    @media  (max-width: 800px){
-    .secciones__img{
-        height: 200px;
-        width: 400px;
+    @media  (max-width: 600px){
+        #gallery{
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 1rem;
+            align-items: center;
+        }
     }
-}
 
 /* Fin Responsive*/
 /* Inicio Animaciones*/
