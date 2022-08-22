@@ -1,0 +1,16 @@
+/* Inicio Animaciones*/
+@keyframes rotate {
+    0% {
+        transform: rotate(5deg)
+    }
+    33% {
+        transform: rotate(100deg)
+    }
+    66% {
+        transform: rotate(200deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+/* Fin Animaciones*/

@@ -1,0 +1,16 @@
+ /* Inicio Contacto*/
+ #form {
+    display: grid;
+    grid-template-columns: 480px;
+    grid-template-rows: auto;
+    color: white;
+    font-size: 1.5em;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+input:checked {
+        accent-color: rgb(4, 250, 4);
+}
+    /* Fin Contacto*/

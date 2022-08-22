@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+
+/*Inicio Misc*/
+@import './misc/normalize.scss';
+/*Fin Misc*/
+
+/*Inicio Partials*/
+@import './partials/header';
+@import './partials/footer';
+/*Fin Partials*/
+
+/*Inicio view*/
+@import './view/index';
+@import './view/reinos';
+@import './view/galeria';
+@import './view/nosotros';
+@import './view/contacto';
+/*Fin view*/
+
+@import './misc/animaciones.scss';
+@import './misc/responsive.scss';

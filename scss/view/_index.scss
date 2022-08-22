@@ -1,0 +1,34 @@
+
+#titulos {
+
+    text-align: center;
+
+    & .titulos__subtitulo {
+
+        margin-bottom: 0.5rem;
+    }
+    & .titulos__parrafo {
+
+        line-height: 1,6;
+        padding: 0.5rem 5rem;
+    }
+}
+
+.secciones__item {
+
+    font-weight:bold;
+    color: rgb(244, 250, 244);
+    font-size: 2.5em;   
+    text-align: center;
+    line-height: 5;
+}
+
+.secciones__img {
+
+    height: 250px;
+    width: 490px;
+    margin: 0 auto;
+    display:flex;
+    border-radius: 5px;
+}
+

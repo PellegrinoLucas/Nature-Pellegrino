@@ -1,0 +1,31 @@
+{
+  "name": "nature-pellegrino",
+  "version": "1.0.0",
+  "description": "Proyecto CoderHouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/index.scss css/index.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PellegrinoLucas/Nature-Pellegrino.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "Bootstrap"
+  ],
+  "author": "Lucas Pellegrino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PellegrinoLucas/Nature-Pellegrino/issues"
+  },
+  "homepage": "https://github.com/PellegrinoLucas/Nature-Pellegrino#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

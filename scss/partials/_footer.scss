@@ -1,0 +1,20 @@
+/* Inicio Footer*/
+.footer {
+
+    background-image: linear-gradient(to right,rgb(108, 248, 108),rgb(4, 250, 4) ) ;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 1rem;
+
+    &__logo {
+        display: flex;
+        max-width: 12rem;
+        min-width: 10rem;
+    }
+}
+
+/* Fin Footer*/

@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+
+}
+
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}*/
+
+
+/* Inicio Body*/
+.body {
+    background-color:rgb(7, 7, 7) ;
+}
+
+h1 {  
+    font-weight: bold;
+    color: rgb(85, 248, 85);
+    font-size: 6em;   
+    font-family: monospace;
+    margin-bottom: 0,5rem;
+    text-align: center;
+    padding: 1rem;   
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(107, 221, 107);
+    font-size: 3em;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+p {
+    font-weight:lighter;
+    color: rgb(151, 229, 151);
+    font-size: 1.5em;   
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+/* Fin Body*/

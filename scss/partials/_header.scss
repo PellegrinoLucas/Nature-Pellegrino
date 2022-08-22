@@ -1,0 +1,45 @@
+/* Inicio Header*/
+
+.main-header {
+    background-image: linear-gradient(to right,rgb(108, 248, 108),rgb(4, 250, 4) ) ;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    &__nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;
+        
+    }
+    &__logo {
+        display: flex;
+        max-width: 12rem;
+        min-width: 10rem;
+        animation: rotate 6s;
+    }
+}
+
+.menu {
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 2rem;
+    &__item {
+        font-weight: bold;
+        color: black;  
+        padding: 1rem;
+        transition: all .3s;
+        
+        &:hover {
+            background-color: black;
+            color:rgb(4, 250, 4);   
+        }
+    }
+    
+    &__link-active {
+        border: 2px solid black;
+    }
+}
+
+/* Fin Header*/
