@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap");
 /*Inicio Misc*/
+.size-xl {
+  font-size: 6em !important; }
+
+.size-l {
+  font-size: 2.5em !important; }
+
+.size-s {
+  font-size: 1.3em !important; }
+
 * {
   margin: 0;
   padding: 0;
@@ -117,7 +126,6 @@ p {
 .secciones__item {
   font-weight: bold;
   color: #f4faf4;
-  font-size: 2.5em;
   text-align: center;
   line-height: 5; }
 
@@ -220,8 +228,8 @@ input:checked {
   #form {
     grid-template-columns: 200px; }
   .nosotros_img {
-    height: 480px;
-    width: 320px; } }
+    height: 780px;
+    width: 400px -80; } }
 
 @media (max-width: 600px) {
   #gallery {

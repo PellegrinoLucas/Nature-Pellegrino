@@ -1,0 +1,16 @@
+
+$height: 600px;
+$width: 400px;
+
+
+$font-size: (
+    size-xl: 6em,
+    size-l: 2.5em,
+    size-s: 1.3em
+);
+
+@each $key, $val in $font-size{
+    .#{$key} {
+        font-size: $val!important;
+    }
+}

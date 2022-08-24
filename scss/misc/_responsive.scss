@@ -1,10 +1,9 @@
 @media  (max-width: 800px){
     .secciones__img{
-        height: 200px;
-        width: 400px;
+        height: $height/3;
+        width: $width;
     }
 }
-
 @media  (max-width: 650px){
     .main-header__nav {
         flex-direction: column;
@@ -13,8 +12,8 @@
         grid-template-columns: 200px;
     }
     .nosotros_img {
-        height: 480px;
-        width: 320px;
+        height: $height +180;
+        width: $width -80;
     }}
 
     @media  (max-width: 600px){
