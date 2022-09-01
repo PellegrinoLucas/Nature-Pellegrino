@@ -248,4 +248,11 @@ input:checked {
   .main__article4 {
     flex-direction: column-reverse; } }
 
+@media (max-width: 480px) {
+  .titulos__principal {
+    font-size: 3em; }
+  .menu {
+    display: block;
+    justify-content: center; } }
+
 /* Fin Responsive*/
