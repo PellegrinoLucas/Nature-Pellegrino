@@ -23,9 +23,7 @@
 }
 
 .secciones__img {
-
-    height: 250px;
-    width: 490px;
+    @include medidas(250px,490px);
     margin: 0 auto;
     display:flex;
     border-radius: 5px;

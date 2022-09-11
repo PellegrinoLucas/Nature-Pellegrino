@@ -1,0 +1,12 @@
+@mixin flex($dir,$jc ,$ai ,$gap) {
+    display: flex;
+    flex-direction: $dir;
+    align-items: $ai;
+    gap: $gap;
+    justify-content: $jc;
+}
+
+@mixin medidas($h, $w) {
+    height: $h;
+    width: $w;
+}

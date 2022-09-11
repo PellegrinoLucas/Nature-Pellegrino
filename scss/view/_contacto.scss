@@ -13,4 +13,22 @@
 input:checked {
         accent-color: rgb(4, 250, 4);
 }
+
+.boton{
+    @include medidas(50px,150px);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.boton__enviar{
+    @extend.boton;
+    color: blue;
+}
+
+.boton__limpiar{
+    @extend.boton;
+    color: red;
+}
+
+
     /* Fin Contacto*/

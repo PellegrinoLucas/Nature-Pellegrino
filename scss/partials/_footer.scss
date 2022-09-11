@@ -3,12 +3,7 @@
 
     background-image: linear-gradient(to right,rgb(108, 248, 108),rgb(4, 250, 4) ) ;
     margin-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2rem;
-    justify-content: space-between;
-    padding: 1rem;
+    @include flex(row, space-between, center, 2rem);
 
     &__logo {
         display: flex;
